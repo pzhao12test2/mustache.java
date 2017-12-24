@@ -19,6 +19,12 @@
   <name>mustache.java</name>
   <url>http://github.com/spullara/mustache.java</url>
 
+  <properties>
+    <jackson.version>2.7.4</jackson.version>
+  <gib.referenceBranch>HEAD^1</gib.referenceBranch>
+        <gib.enabled>true</gib.enabled>
+    </properties>
+
   <developers>
     <developer>
       <id>spullara</id>
@@ -136,9 +142,5 @@
       </build>
     </profile>
   </profiles>
-<properties>
-        <gib.referenceBranch>HEAD^1</gib.referenceBranch>
-        <gib.enabled>true</gib.enabled>
-    </properties>
 </project>
 
